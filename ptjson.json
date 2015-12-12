@@ -10,7 +10,9 @@
     "type": "LTMV",
     "needs": [0,2],
     "risk": 2,
-    "last observation": {"TB", "2015-12-09T03:44", "gen slow"}
+    "last observation": {"sig":"TB", 
+        "timestamp":"2015-12-09T03:44", 
+        "comment":"gen slow"}
 }
     
     
