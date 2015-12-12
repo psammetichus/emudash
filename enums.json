@@ -1,0 +1,19 @@
+{
+   "status":[
+        "to hook up":0,
+        "recording online":1,
+        "recording offline": 2,
+        "interrupted": 4,
+        "to be d/c" : 3],
+    "needs":[
+        "fixing":0,
+        "stop for testing":1,
+        "restart":2,
+        "discontinue":3,
+        "hyperventilate":4,
+        "photic stim":5,
+        "sleep deprive":6,
+        "med withdraw":7
+        ]
+}
+        

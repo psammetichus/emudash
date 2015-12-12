@@ -1,0 +1,83 @@
+
+
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "name": {
+      "id": "http://jsonschema.net/name",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/name/1",
+        "type": "string"
+      },
+      "required": [
+        "1"
+      ]
+    },
+    "dob": {
+      "id": "http://jsonschema.net/dob",
+      "type": "string"
+    },
+    "mrn": {
+      "id": "http://jsonschema.net/mrn",
+      "type": "string"
+    },
+    "loc": {
+      "id": "http://jsonschema.net/loc",
+      "type": "string"
+    },
+    "status": {
+      "id": "http://jsonschema.net/status",
+      "type": "integer"
+    },
+    "recstart": {
+      "id": "http://jsonschema.net/recstart",
+      "type": "string"
+    },
+    "indication": {
+      "id": "http://jsonschema.net/indication",
+      "type": "string"
+    },
+    "meds": {
+      "id": "http://jsonschema.net/meds",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/meds/0",
+        "type": "object",
+        "properties": {
+          "medname": {
+            "id": "http://jsonschema.net/meds/0/medname",
+            "type": "string"
+          },
+          "doses": {
+            "id": "http://jsonschema.net/meds/0/doses",
+            "type": "array",
+            "items": {
+              "id": "http://jsonschema.net/meds/0/doses/1",
+              "type": "integer"
+            }
+          }
+        }
+      }
+    },
+    "type": {
+      "id": "http://jsonschema.net/type",
+      "type": "string"
+    }
+  },
+  "required": [
+    "name",
+    "dob",
+    "mrn",
+    "loc",
+    "status",
+    "recstart",
+    "indication",
+    "meds",
+    "type"
+  ]
+}
+
+

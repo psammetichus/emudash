@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Sparrow Hospital Epilepsy Monitoring Unit</title>
+<link rel="stylesheet" type="text/css">dash.css</link>
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<h1>Epilepsy Monitoring Unit</h1>
+
+<section id="emu"></section>
+
+<section id="ltm"></section>
+
+<script  charset="utf-8">
+var ptsock = new WebSocket("ws://localhost:1981", "ptprotocol");
+var oncall = new WebSocket("ws://localhost:1981", "oncallproto");
+
+var buildRecordingBlock = (ptjson) => {
+    };
+</script>
+</body>
+
+
+
+
+</html>
